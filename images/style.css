@@ -1,0 +1,557 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#topbar{
+    background-color:rgb(48, 88, 221);
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#socialbar{
+    padding: 0em 0em 0em 2em;
+    width: 300px;
+}
+#ho:hover{
+    background-color: rgb(59, 99, 187);
+}
+#million{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+    padding: 1em 3em 1em 3em;
+}
+.topright{
+    background-color: white;
+    color: #427900;
+    border: 1px solid grey;
+    font-size: 13px;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+}
+#uk{
+    width: 300px;
+    padding: 0em 2em 0em 0em;
+}
+#non{
+    list-style-type: none;
+}
+.topright:hover{
+    background-color: rgb(15, 138, 238);
+    color: white;
+}
+#whitebar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    margin: 0.7em 0 0.7em 0;
+    width: 100%;
+}
+#logo{
+    width: 425px;
+    padding: 0em 0em 0em 3em;
+}
+#saylani{
+    width: 170px;
+}
+#whiteright{
+    width: 800px;
+}
+#active{
+    color: white;
+    background-color: rgb(70, 70, 252);
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 15px;
+}
+.whiteright{
+    color: black;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 15px;
+}
+.whiteright:hover{
+    background-color: rgb(70, 70, 252);
+    color: white;
+}
+#slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#slider{
+    width: 100%;
+    height: 50%;
+}
+#newsbar{
+    background-color: rgba(23, 128, 247, 0.986);
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    height: 3%;
+    width: 88%;
+    margin: 1% 0em 0em 6%;
+}
+#newstext{
+    padding: 0.5em 0em 0.5em 0.5em;
+    color: white;
+    font-size: 12pt;
+}
+#green{
+    color: rgb(42, 190, 42);
+}
+#deco{
+    text-decoration: none;
+}
+#blue{
+    color: rgb(9, 74, 158);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#intro{
+    margin: 2% 40.5% 0em 40.5%;
+}
+#icon{
+    size: 40px;
+}
+.icon{
+    margin: 0em 0em 0em 46%;
+}
+#par{
+    margin: 1% 11% 0% 11%;
+    width: 78%;
+}
+#para{
+    color: rgb(61, 59, 59);
+    text-align: justify;
+    line-height: 1.8em;
+    word-spacing: 0.2em;
+}
+#bluebar{
+    background-color: rgb(24, 82, 206);
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    margin: 3em 0 3em 0;
+    width: 100%;
+}
+#food{
+    height: 40px;
+    margin: 22% 0 0 42%;
+}
+#foodnum{
+    color: white;
+    margin: 0 0 0 30%;
+}
+#foodtext{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 23% 0;
+}
+#family{
+    height: 40px;
+    margin: 26% 0 0 40%;
+}
+#familynum{
+    color: white;
+    margin: 0 0 0 35.5%;
+}
+#familytext{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 23% 0;
+}
+#med{
+    height: 40px;
+    margin: 30% 0 0 42%;
+}
+#mednum{
+    color: white;
+    margin: 0 0 0 30%;
+}
+#medtext{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 23% 0;
+}
+#edu{
+    height: 40px;
+    margin: 27% 0 0 42%;
+}
+#edunum{
+    color: white;
+    margin: 0 0 0 30%;
+}
+#edutext{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 23% 0;
+}
+#card{
+    margin: 0 0 0 3.5%;
+    width: 280px;
+}
+#sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#doing{
+    font-size: 13pt;
+    color: rgb(9, 74, 158);
+    text-transform: uppercase;
+    margin: 6% 35% 0 35%;
+}
+.secicon{
+    margin: 0 46% 0 46%;
+}
+#cardsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#sadqaimg{
+    width: 70px;
+    margin: 15% 40% 0  40%;
+}
+#sadqatext{
+    color: rgb(27, 113, 226);
+    margin: 0 23% 15% 23%;
+}
+#welimg{
+    margin: 15% 40% 0  40%;
+    width: 70px;
+}
+#weltext{
+    color: rgb(27, 113, 226);
+    margin: 0 35% 15% 35%;
+}
+#medimg{
+    margin: 15% 40% 0  40%;
+    width: 70px;
+}
+#medtex{
+    margin: 0 37% 15% 37%;
+    color: rgb(27, 113, 226);
+}
+#dasimg{
+    margin: 15% 40% 0  40%;
+    width: 70px;
+}
+#dastext{
+    margin: 0 25% 15% 25%;
+    color: rgb(27, 113, 226);
+}
+#roimg{
+    margin: 15% 40% 0  40%;
+    width: 70px;
+}
+#rotext{
+    margin: 0 25% 15% 36%;
+    color: rgb(27, 113, 226);
+}
+#eduimg{
+    margin: 15% 40% 0  40%;
+    width: 70px;
+}
+#edutex{
+    margin: 0 25% 15% 32%;
+    color: rgb(27, 113, 226);
+}
+#one{
+    margin: 0 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#two{
+    margin: 0 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#three{
+    margin: 0 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#four{
+    margin: 3% 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#five{
+    margin: 3% 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#six{
+    margin: 3% 5% 3% 5%;
+    background-color: white;
+    height: 12em;
+    width: 23%;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+#act{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 650px;
+}
+#bottom{
+    color: rgb(27, 113, 226);
+    margin: 17% 0 0 7%;
+}
+#covall{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 800px;
+}
+#covup{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 780px;
+}
+#hp{
+    background-color: white;
+    -moz-box-shadow: 0 0 1px #777777;
+    -webkit-box-shadow: 0 0 1px #777777;
+    box-shadow: 0 0 1px #777777;
+    width: 300px;
+    height: 60px;
+    margin: 2% 5% 0 6%;
+}
+#h{
+    background-color: white;
+    -moz-box-shadow: 0 0 1px #777777;
+    -webkit-box-shadow: 0 0 1px #777777;
+    box-shadow: 0 0 1px #777777;
+    width: 300px;
+    height: 60px;
+    margin: 2% 5% 0 4%;
+}
+#covdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 780px;
+}
+#it{
+    background-color: white;
+    -moz-box-shadow: 0 0 1px #777777;
+    -webkit-box-shadow: 0 0 1px #777777;
+    box-shadow: 0 0 1px #777777;
+    width: 300px;
+    height: 60px;
+    margin: 5% 5% 0 6%;
+}
+#th{
+    background-color: white;
+    -moz-box-shadow: 0 0 1px #777777;
+    -webkit-box-shadow: 0 0 1px #777777;
+    box-shadow: 0 0 1px #777777;
+    width: 300px;
+    height: 60px;
+    margin: 5% 5% 0 4%;
+}
+#img{
+    margin: 5% 0 0 5%;
+}
+#text{
+    color: rgb(27, 113, 226);
+    margin: 0 0 0 5%;
+}
+#midhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 500px;
+}
+#midup{
+   width: 450px;
+   margin: 22% 0 0 45%;
+}
+#midright{
+    color: rgb(27, 113, 226);
+}
+#mid{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    margin: 3% 30% 0 45%;
+}
+#midpara{
+    color: rgb(61, 59, 59);
+    text-align: justify;
+    line-height: 1.5em;
+    word-spacing: 0.15em;
+}
+#md{
+    text-decoration: none;
+    color: rgb(7, 7, 250);
+}
+#low{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#lower{
+    color: rgb(27, 113, 226);
+    width: 800px;
+    margin: 0 0 0 40%;
+}
+#lowericon{
+    margin: 0 0 0 45%;
+}
+#lowimgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+#imgsize{
+    width: 200px;
+}
+#ext{
+    margin: 5% 0.15% 0 12%;
+}
+.img{
+    margin: 5% 0.1% 0 0.1%;
+}
+#black{
+    background-color: rgb(37, 39, 46);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    margin: 10% 0 0 0;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#add{
+    color: rgb(192, 190, 190);
+    line-height: 1.4em;
+    margin: 15% 0 0 25%;
+    width: 350px;
+}
+#cont{
+    color: rgb(192, 190, 190);
+    margin: 5% 0 10% 19%;
+}
+#sq{
+    list-style-type: square;
+}
+#lin{
+    color: white;
+    margin: 10% 0 0 40%;
+    height: 0px;
+}
+#line{
+    color: rgb(100, 98, 98);
+    margin: 0 0 0 41%;
+}
+#connect{
+    color: white;
+    width: 300px;
+    margin: 13% 0 0 60%;
+}
+#cf{
+    display: inline-block;
+    margin: 0 0 0 55%;
+}
+#c{
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+#con{
+    width: 300px;
+}
+#lowestbar{
+    background-color: rgb(31, 64, 250);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#cr{
+    color: white;
+    margin: 1% 0 1% 6.5%;
+}
